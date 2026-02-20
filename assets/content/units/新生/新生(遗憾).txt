@@ -1,0 +1,6 @@
+abilities: [
+  {
+    type: SpawnDeathAbility
+    unit: 新生-turret
+  }
+]

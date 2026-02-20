@@ -1,0 +1,6 @@
+"type": "Prop"
+"name": "小型黄石（带阴影）"
+"variants": 3
+"hasShadow": false
+"placeableLiquid": true
+"buildVisibility": "shown"

@@ -1,0 +1,7 @@
+color: F200FFFF
+gas: true
+hideDetails: false
+temperature: 80
+heatCapacity: 0
+coolant: false
+incinerable: false
