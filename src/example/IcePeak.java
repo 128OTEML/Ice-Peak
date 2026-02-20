@@ -2,17 +2,14 @@ package example;
 
 import arc.*;
 import arc.util.*;
-import mindustry.*;
-import mindustry.content.*;
 import mindustry.game.EventType.*;
-import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
 
-public class ExampleJavaMod extends Mod{
+public class IcePeak extends Mod{
 
-    public ExampleJavaMod(){
-        Log.info("Loaded ExampleJavaMod constructor.");
+    public IcePeak(){
+        Log.info("Loaded IcePeak constructor.");
 
         //listen for game load event
         Events.on(ClientLoadEvent.class, e -> {

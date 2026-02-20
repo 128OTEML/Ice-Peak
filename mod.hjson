@@ -18,6 +18,9 @@ MOD地图:aaenaaoaaena、ph0se-fa6r1c"
 #the mod version
 version: 1.0
 
+#the fully qualified main class of the mod
+main: "IcePeak"
+
 #the minimum game build required to run this mod
 minGameVersion: 154
 repo: "https://github.com/128OTEML/Ice-Peak"
