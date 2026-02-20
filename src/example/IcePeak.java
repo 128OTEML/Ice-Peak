@@ -17,8 +17,8 @@ public class IcePeak extends Mod{
             Time.runTask(10f, () -> {
                 BaseDialog dialog = new BaseDialog("frog");
                 dialog.cont.add("behold").row();
-                //mod sprites are prefixed with the mod name (this mod is called 'example-java-mod' in its config)
-                dialog.cont.image(Core.atlas.find("example-java-mod-frog")).pad(20f).row();
+                //mod sprites are prefixed with the mod name (this mod is called 'IcePeak' in its config)
+                dialog.cont.image(Core.atlas.find("IcePeak-frog")).pad(20f).row();
                 dialog.cont.button("I see", dialog::hide).size(100f, 50f);
                 dialog.show();
             });
@@ -27,7 +27,7 @@ public class IcePeak extends Mod{
 
     @Override
     public void loadContent(){
-        Log.info("Loading some example content.");
+        Log.info("Loading some IcePeak content.");
     }
 
 }
